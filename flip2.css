@@ -288,6 +288,10 @@
 	margin-bottom: 5vh;
   }
 
+  .select-level{
+	  color: rgb(0, 0, 129);
+  }
+
   .select-level:hover{
 	  font-weight: bolder;
 	  color: rgb(149, 151, 247);
