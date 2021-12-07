@@ -29,20 +29,19 @@
 	display: block;
 	width: var(--bubble-radius);
 	height: var(--bubble-radius);
-	border-radius: 50%;
 	animation: float-up var(--bubble-float-duration) var(--bubble-float-delay) ease-in infinite;
   }
-  /* .bubble::before {
+  .bubble::before {
 	position: absolute;
 	content: "";
-	top: 0;
+	/* top: 0; */
 	left: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(136, 246, 251, 0.3);
-	border-radius: inherit;
+	border-radius: 50%;
 	animation: var(--bubble-sway-type) var(--bubble-sway-duration) var(--bubble-sway-delay) ease-in-out alternate infinite;
-  } */
+  }
   .bubble:nth-child(0) {
 	--bubble-left-offset: 51vw;
 	--bubble-radius: 4vw;
@@ -568,6 +567,7 @@
 
   .levels a:hover{
       font-weight: bolder;
+	  cursor: crosshair;
   }
     </style>
 </head>

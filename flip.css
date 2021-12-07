@@ -53,11 +53,11 @@
   }
   
   li {
+	position: relative;
 	width: calc(33% - 0.5em);
 	margin-bottom: 1em;
 	height: 10em;
 	list-style: none;
-	position: relative;
 	outline: 4px solid white;
 	background: #64ddf3;
   }
@@ -132,7 +132,6 @@
 	display: block;
 	left: 0;
 	right: 0;
-	text-align: center;
 	margin: 0 auto;
 	-webkit-appearance: none;
 	   -moz-appearance: none;
