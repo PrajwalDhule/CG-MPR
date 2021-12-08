@@ -106,21 +106,6 @@
 	-webkit-animation-duration: 0.814702667s;
 			animation-duration: 1.7477486933s;
   }
-  li:nth-child(10) input {
-	filter: hue-rotate(330.9403815863deg) brightness(1.042467546);
-	-webkit-animation-duration: 2.3662318747s;
-			animation-duration: 2.3662318747s;
-  }
-  li:nth-child(11) input {
-	filter: hue-rotate(257.4416143987deg) brightness(1.1735790124);
-	-webkit-animation-duration: 4.0963715005s;
-			animation-duration: 4.0963715005s;
-  }
-  li:nth-child(12) input {
-	filter: hue-rotate(143.6758294443deg) brightness(1.3396145891);
-	-webkit-animation-duration: 2.9703903239s;
-			animation-duration: 2.9703903239s;
-  }
   
   input[type=checkbox] {
 	width: 50px;
